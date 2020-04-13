@@ -71,7 +71,7 @@ ng build --prod
   "version": "2.0"
 }
 ```
-- Create a zip folder `~template/source/dist/record-panel-view` and follow the instructions for[deployment](https://docs.webmethods.io/AgileApps/getting_started/deployment/#gsc.tab=0)
+- Create a zip folder `~template/source/dist/record-panel-view` and follow the instructions for [deployment](https://docs.webmethods.io/AgileApps/getting_started/deployment/#gsc.tab=0).
 
 ## Disclaimer
 Refer to the [licence](LICENSE) terms and conditions.
