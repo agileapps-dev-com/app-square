@@ -1,7 +1,7 @@
 # App Square (CUI template)
 This is a starter CUI template for AgileApps platform. It contains the [CUI template](./packages/cui-template) and the [source code](./template/source/).
 
-![App Square home](./docs/images/home.png)
+![App Square home](./docs/images/home-page.png)
 
 [See more previews]() of this template.
 
