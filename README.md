@@ -3,7 +3,7 @@ This is a starter CUI template for AgileApps platform. It contains the [CUI temp
 
 ![App Square home](./docs/images/home-page.png)
 
-[More previews](./docs/previews.md#home-page) of this template.
+[More previews](./docs/previews.md#record-detail-pages) of this template.
 
 
 ## Prerequisites:
