@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+html > body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+// Table
+.mat-table {
+  & > .mat-header-row {
+    & > .mat-header-cell {
+      font-weight: 600;
+      
+    }
+  }
+}

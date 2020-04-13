@@ -1,0 +1,10 @@
+a{
+    &:link,
+    &:visited{
+        color:  get-theme-color($theme-colors-primary, "base", false);
+    }
+
+    &:hover{
+        color:  get-theme-color($theme-colors-accent, "base", false);;
+    }
+}

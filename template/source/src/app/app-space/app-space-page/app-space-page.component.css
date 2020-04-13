@@ -1,0 +1,57 @@
+:host h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 600;
+}
+.panel-container {
+  height: calc(100vh - 95px);
+  margin: 0 20px 20px;
+  border-radius: 10px;
+}
+.content-wrapper {
+  padding: 0 20px 20px;
+  position: relative;
+}
+.content-title {
+  position: sticky;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+}
+.content-scrollable {
+  /* margin-top: 25px; */
+}
+
+:host ::ng-deep aac-object-views-list .viewlists-info,
+:host ::ng-deep aac-records-table-view .records-container,
+:host ::ng-deep aac-records-table-view .records-count-enabled {
+  height: auto;
+}
+.action-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+.action-btns > .ace-btn {
+  margin: 0 5px;
+}
+
+.component-not-loaded {
+  display: none;
+}
+
+:host ::ng-deep aac-records-table-view .priorityBorder {
+  margin: 0;
+}
+
+:host ::ng-deep .record-actions ace-record-actions .actions-list .mat-menu-item {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  margin: 0 5px;
+  padding: 5px;
+  height: auto;
+  line-height: inherit;
+}
