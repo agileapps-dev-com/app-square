@@ -33,17 +33,17 @@ npm install
 ``` 
 
 ### How to use Proxy during development 
-- Update the "target" property value in **proxy.conf.json**  to point to AgileApps environment (10.13.5+). eg: replace `https://agileappsinstance-hostname` with the AgileApps' instance host name.
+- Update the "target" property value in **proxy.conf.json**  to point to AgileApps environment (10.13.5+). eg: replace `https://agileappsinstancehostname` with the AgileApps' instance host name.
 
 ```json
 {
   "/networking": {
-    "target": "https://agileappsinstance-hostname",
+    "target": "https://agileappsinstancehostname",
     "secure": false,
     "changeOrigin": "true"
   },
   "/ace-lib": {
-    "target": "https://agileappsinstance-hostname",
+    "target": "https://agileappsinstancehostname",
     "secure": false,
     "changeOrigin": "true"
   }
@@ -76,4 +76,4 @@ ng build --prod
 - Create a zip folder `~template/source/dist/record-panel-view` and follow the instructions for [deployment](https://docs.webmethods.io/AgileApps/getting_started/deployment/#gsc.tab=0).
 
 ## Disclaimer
-Refer to the [licence](LICENSE) terms and conditions.
+Refer to the [license](LICENSE) terms and conditions.

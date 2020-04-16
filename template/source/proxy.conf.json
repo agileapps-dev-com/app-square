@@ -1,11 +1,11 @@
 {
   "/networking": {
-    "target": "https://agileappsinstance-hostname",
+    "target": "https://agileappsinstancehostname",
     "secure": false,
     "changeOrigin": "true"
   },
   "/ace-lib": {
-    "target": "https://agileappsinstance-hostname",
+    "target": "https://agileappsinstancehostname",
     "secure": false,
     "changeOrigin": "true"
   }
