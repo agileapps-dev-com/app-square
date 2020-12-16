@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app-template": {
+    "app-square": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-template",
+            "outputPath": "dist/app-square",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,20 +62,20 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "app-template:build",
+            "browserTarget": "app-square:build",
             "proxyConfig": "proxy.conf.json",
             "ssl": true
           },
           "configurations": {
             "production": {
-              "browserTarget": "app-template:build:production"
+              "browserTarget": "app-square:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app-template:build"
+            "browserTarget": "app-square:build"
           }
         },
         "test": {
@@ -112,16 +112,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "app-template:serve"
+            "devServerTarget": "app-square:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app-template:serve:production"
+              "devServerTarget": "app-square:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "app-template"
+  "defaultProject": "app-square"
 }
