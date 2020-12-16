@@ -1339,8 +1339,9 @@ html body .objects-container {
     margin-right: 5px; }
     /* line 12, src/assets/themes/default/_addon-styles.scss */
     html body .objects-container .ace-list-item.object-info a.item-info {
-      padding: 2px 5px;
-      border: 1px solid transparent; }
-      /* line 15, src/assets/themes/default/_addon-styles.scss */
+      padding: 2px 10px;
+      border: 1px solid transparent;
+      border-radius: 10px 0 10px 0; }
+      /* line 16, src/assets/themes/default/_addon-styles.scss */
       html body .objects-container .ace-list-item.object-info a.item-info:hover {
         border: 1px solid #fed539; }
