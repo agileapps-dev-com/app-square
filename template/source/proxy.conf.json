@@ -1,12 +1,12 @@
 {
   "/networking": {
-    "target": "https://agileappsinstancehostname",
-    "secure": false,
+    "target": "https://satheesh.agileappslive.com",
+    "secure": true,
     "changeOrigin": "true"
   },
   "/ace-lib": {
-    "target": "https://agileappsinstancehostname",
-    "secure": false,
+    "target": "https://satheesh.agileappslive.com",
+    "secure": true,
     "changeOrigin": "true"
   }
 }

@@ -1,9 +1,0 @@
-.login-container {
-    display: flex;
-    height: 100%;
-    align-content: center;
-    justify-content: center;
-}
-.login-form {
-    width: 360px;
-}

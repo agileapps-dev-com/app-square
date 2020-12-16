@@ -1,0 +1,22 @@
+.login-form-section{
+    position: relative;
+}
+.login-card{
+    position: absolute;
+    top:30%;
+    left:25%;
+    right: 25%;
+    padding: 20px 40px;
+    
+}
+.footer-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.text-content{
+    padding: 240px 40px 40px;
+}
+
