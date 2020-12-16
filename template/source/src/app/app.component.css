@@ -19,4 +19,5 @@
     height: calc(100vh - 70px) ;
     border-radius: 15px;
     margin: 0 20px;
+    padding: 20px;
 }
