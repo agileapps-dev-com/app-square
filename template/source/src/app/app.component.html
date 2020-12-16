@@ -1,2 +1,20 @@
+<div class="page-container">
+    <header>
+        <div class="d-flex align-items-center">
+            <div class="mr-auto logo">
+                <button (click)="goToHome()"> 
 
-<router-outlet></router-outlet>
+                    <h2><i class="material-icons">business</i> App Square</h2>
+                </button>
+
+            </div>
+            <div class=""><button class="applications ace-btn "><i class="material-icons"> apps </i></button></div>
+            <div class="">User menu</div>
+        </div>
+
+
+    </header>
+    <main class="page-content ace-bg-light">
+        <router-outlet></router-outlet>
+    </main>
+</div>
