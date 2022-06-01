@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { DetailPanelViewComponent } from './detail-panel-view/detail-panel-view.component';
 import { SharedModule } from '../shared/shared.module';
 import { AngularSplitModule } from 'angular-split';
+import { MastHeadModule } from '../components/mast-head/mast-head.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { AngularSplitModule } from 'angular-split';
   imports: [
     AppSquareRoutingModule,
     AngularSplitModule.forRoot(),
-    SharedModule
+    SharedModule,
+    MastHeadModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

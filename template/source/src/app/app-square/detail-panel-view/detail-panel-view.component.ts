@@ -143,4 +143,18 @@ export class DetailPanelViewComponent implements OnInit, OnDestroy {
       });
     }
   }
+  createNewRecord():void{
+    this.router.navigate(['./'], {
+      relativeTo: this.route, queryParams: {
+        rid: -1,
+        vid: this.selectedView['id']
+      }
+    }).then(() => {
+      this.layoutCols = {
+        col1: 0,
+        col2: 0,
+        col3: 100
+      }
+    });
+  }
 }
