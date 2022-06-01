@@ -6,7 +6,8 @@ const routes: Routes = [
   { path: "login", loadChildren: "src/app/login/login.module#LoginModule" },
   { path: "AppSpace", loadChildren: "src/app/app-space/app-space.module#AppSpaceModule" },
   { path: "appSquare", loadChildren: "src/app/app-square/app-square.module#AppSquareModule" },
-  { path: "", redirectTo: "appSquare", pathMatch: "full" }
+  { path: "", redirectTo: "appSquare", pathMatch: "full" },
+  { path: 'retail-mart', loadChildren: () => import('./retail-mart/retail-mart.module').then(m => m.RetailMartModule) }
 ];
 
 @NgModule({

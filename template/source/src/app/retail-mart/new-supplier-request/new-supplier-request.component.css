@@ -1,0 +1,39 @@
+.help-text-desc{
+    /* font-size: 100%; */
+    line-height: 150%;
+}
+.header{
+    /* padding: 20px; */
+}
+
+.brand-name-text{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.border-rad{
+    border-radius: 10px;
+    padding: 10px;
+}
+.action-row{
+    margin: 20px 0;
+    padding: 5px 0;
+    position: sticky;
+    bottom: 0;
+    z-index: 99999999;
+}
+.btn-space{
+    margin-right: 20px;
+}
+.icon-cls i{
+    width: 24px;
+    display: inline-block;
+    font-size: 24px;
+}
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
