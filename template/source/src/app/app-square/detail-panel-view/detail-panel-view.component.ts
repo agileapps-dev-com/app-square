@@ -157,4 +157,7 @@ export class DetailPanelViewComponent implements OnInit, OnDestroy {
       }
     });
   }
+  viewListloadHandler(eventData):void{
+    console.log(eventData,'@@@@@@@@@')
+  }
 }

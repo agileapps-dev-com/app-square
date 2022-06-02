@@ -11,7 +11,7 @@
 
                         <div #objectViewsListContainer>
                             <ace-object-views-list css-classlist="" object-id="18bc1e03555c45e2b17493425710f1b2"
-                                #objectViewsElem (selectionChange)="viewSelectionChange($event)">
+                                #objectViewsElem (selectionChange)="viewSelectionChange($event)" >
                             </ace-object-views-list>
 
                         </div>
@@ -34,7 +34,7 @@
                                 <i class="material-icons valign-middle ">
                                     add_circle
                                 </i>
-                                Create
+                                Add new
                             </button>
 
                         </div>
@@ -42,7 +42,7 @@
                     <div class="content-scrollable" [ngClass]="{'component-not-loaded':!viewId}">
                         <ace-records-table-view object-id="" view-id="-1" sorting="true" sort-by="date_modified"
                             sort-order="desc" css-classlist="ace-table-striped " #recordTableViewElem
-                            selection-column-title="" (selectrecord)="recordTableSelectionChange($event)">
+                            selection-column-title="" (selectrecord)="recordTableSelectionChange($event)" >
                         </ace-records-table-view>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                     <div class="content-title ace-bg-light">
                         <h3>
                             <span *ngIf="recordId !='-1'; else elseBlock">{{selectedRecord?.record_locator}}</span>
-                            <ng-template #elseBlock>Create new record</ng-template>
+                            <ng-template #elseBlock>Add new record</ng-template>
                             
                         </h3>
                         <hr>
